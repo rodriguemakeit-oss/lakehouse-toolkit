@@ -1,0 +1,6 @@
+{
+  "name": "lakehouse-toolkit",
+  "version": "0.7.0",
+  "description": "Databricks pipeline standards + skills/instructions for Claude Code, GitHub Copilot and Genie Code",
+  "author": { "name": "Rodrigue" }
+}
