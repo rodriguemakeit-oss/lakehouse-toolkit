@@ -1,27 +1,22 @@
 # Lakehouse Toolkit
 
-Conventions, modèles et compétences d’assistants pour construire des pipelines Databricks modulaires.
+Development standards, templates, and assistant instructions for modular Databricks data-pipeline projects.
 
-Version de portfolio maintenue sur [rodriguemakeit-oss](https://github.com/rodriguemakeit-oss).
+## What is included
 
-## Ce que le projet explore
+- `standards/` — canonical guidance for configuration, testing, data quality, and pipeline design
+- `skills/` — reusable workflows for data-engineering tasks
+- `templates/` — starting points for project documentation and instructions
+- `scripts/` — tooling to install or synchronize the toolkit in another project
 
-Conventions, modèles et compétences d’assistants pour construire des pipelines Databricks modulaires. L’accent est mis sur la séparation des composants, la configuration explicite et la réutilisation des traitements.
+## Assistant integrations
 
-## Structure
+Adapters support GitHub Copilot, Claude Code, and Databricks Genie Code. They reference the shared standards so conventions have one source of truth.
 
-`standards/ · skills/ · templates/ · scripts/`
+## Getting started
 
-## Prise en main
+See [GUIDE.md](GUIDE.md) for installation and usage instructions, and [CONTRIBUTING.md](CONTRIBUTING.md) for maintenance practices.
 
-Consultez [GUIDE.md](GUIDE.md) pour les commandes et la configuration détaillées.
+## Scope
 
-Les valeurs de déploiement sont des exemples. Les identifiants nuls et les domaines `example.invalid` doivent être remplacés dans votre propre environnement. Aucun déploiement cloud n’est lancé automatiquement.
-
-## État du projet
-
-Cette adaptation nécessite vos propres services et jeux de données. Les contrôles locaux sont décrits dans [VALIDATION.md](VALIDATION.md) ; ils ne constituent pas une validation des intégrations cloud.
-
-## Contributions et licences
-
-Les noms de packages, crédits d’auteurs et avis tiers conservés dans les sources s’appliquent à leurs composants respectifs. Aucune licence globale supplémentaire n’est attribuée à ce dépôt.
+This repository contains reusable development guidance, not a deployed data platform. Adapt and validate the templates against your own project and governance requirements. See [VALIDATION.md](VALIDATION.md).
